@@ -1,0 +1,33 @@
+.landingpage-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.img_1__frame {
+  width: 90%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.landingpage__title {
+  color: var(--c-white);
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start; 
+}
+
+.landingpage__title--big {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: 0;
+}
+.landingpage__title--small {
+    
+}
+.landingpage-p{
+
+}
