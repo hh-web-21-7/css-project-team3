@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .img_1__frame {
@@ -16,7 +15,7 @@
   letter-spacing: 2px;
   display: flex;
   flex-direction: column;
-  align-content: flex-start; 
+  align-content: flex-start;
 }
 
 .landingpage__title--big {
@@ -26,8 +25,6 @@
   margin-bottom: 0;
 }
 .landingpage__title--small {
-    
 }
-.landingpage-p{
-
+.landingpage-p {
 }
