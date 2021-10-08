@@ -1,0 +1,16 @@
+.logo {
+  padding: 40px 20px;
+  border: 2px solid var(--c-white);
+}
+
+.logo__text {
+  text-transform: uppercase;
+  color: var(--c-white);
+}
+
+.logo__text--pink {
+  color: var(--c-pink);
+}
+
+.logo__text--small {
+}
