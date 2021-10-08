@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__button-container {
+  display: flex;
+}
+
+.navbar__menu {
+}
+
+.navbar__item {
+}
