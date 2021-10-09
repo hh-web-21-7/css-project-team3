@@ -1,4 +1,4 @@
-.text_positioning {
+.training__text-positioning {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   
 }
 
-.img_subtitle {
+.training__img-subtitle {
   display: flex;
   position: absolute;
   color: var(--c-white);
@@ -16,7 +16,7 @@
   bottom: 30px;
 }
 
-.training-img {
+.training__training-img {
     border-radius: 10px;
     margin-bottom: 20px;
 }
