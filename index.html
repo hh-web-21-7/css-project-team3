@@ -6,6 +6,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css">
   <link rel="stylesheet" href="style/index.css" />
   <title>Workout</title>
 </head>
@@ -18,21 +19,37 @@
       </p>
       <p class="logo__text logo__text--small">Believe in yourself</p>
     </div>
+    
+    <input class= "navbar__menu-checkbox"type="checkbox" id="menu-toggle">
 
-    <div>
-      <ul class="navbar__menu">
-        <li><a class="navbar__item" href="link">Exercises</a></li>
-        <li><a class="navbar__item" href="link">Community</a></li>
-        <li><a class="navbar__item" href="link">Pricing</a></li>
-        <li><a class="navbar__item" href="link">About Us</a></li>
+    <label for="menu-toggle">  
+      <i class="im im-menu"></i>
+    </label>
+  
+  
+    
+    <div class = "navbar__menu-toggle-container">
+      <label for="menu-toggle">
+        <div class="navbar__menu-toggle--open"></div>
+      </label>
+      <div class="navbar__menu-container">
+        <ul class="navbar__menu">
+          <li><a class="navbar__item" href="">Exercises</a></li>
+          <li><a class="navbar__item" href="">Community</a></li>
+        <li><a class="navbar__item" href="">Pricing</a></li>
+        <li><a class="navbar__item" href="">About Us</a></li>
       </ul>
-
       <div class="navbar__button-container">
         <button class="navbar__Login">Login</button>
         <button class="navbar__Sign-in">Sign in</button>
-      </div>
+      </div>      
+    </div>
     </div>
   </nav>
+  
+  
+
+
 
 
 
