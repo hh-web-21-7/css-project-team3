@@ -28,14 +28,14 @@
   margin-bottom: -15px;
 }
 
-.landingpage-text {
+.landingpage__text {
   color: var(--c-white);
   margin: 30px 0 50px 0;
   font-size: 12px;
   max-width: 305px;
   
 }
-.landingpage_button {
+.workout-button {
   color: var(--c-white);
   background-color: hotpink;
   text-decoration: none;
