@@ -1,0 +1,41 @@
+.landingpage-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_1__frame {
+  margin-top: 100px;
+  overflow: hidden;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.landingpage__title {
+  color: var(--c-white);
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.landingpage__title--big {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 5px;
+  margin-bottom: -15px;
+}
+
+.landingpage__text {
+  color: var(--c-white);
+  margin: 30px 0 50px 0;
+  font-size: 12px;
+  max-width: 305px;
+}
+.workout-button {
+  color: var(--c-white);
+  background-color: hotpink;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
