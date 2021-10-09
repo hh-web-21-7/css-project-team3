@@ -1,7 +1,9 @@
 .workout-button {
     color: var(--c-white);
-    background-color: hotpink;
+    background-color: var(--c-pink);
     text-decoration: none;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
   }

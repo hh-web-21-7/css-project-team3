@@ -1,0 +1,7 @@
+
+.paragraph {
+    color: var(--c-white-faded);
+    margin: 30px 50px;
+    font-size: 1rem; 
+    text-align: center;
+}
