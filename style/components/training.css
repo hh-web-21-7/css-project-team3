@@ -1,0 +1,22 @@
+.text_positioning {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.img_subtitle {
+  display: flex;
+  position: absolute;
+  color: var(--c-white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  left: 7px;
+  bottom: 30px;
+}
+
+.training-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
