@@ -21,3 +21,7 @@ button {
   all: unset;
   display: block;
 }
+
+:root {
+  font-size: 112.5%;
+}

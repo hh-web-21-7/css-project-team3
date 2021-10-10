@@ -6,6 +6,7 @@
 }
 
 .logo__text {
+  margin: 0;
   text-transform: uppercase;
   color: var(--c-white);
   font-size: 32px;
