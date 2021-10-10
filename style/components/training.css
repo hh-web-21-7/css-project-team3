@@ -1,9 +1,15 @@
-.section-box {
+.training {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 50px;
+  gap: 30px;
 }
+
+.training__card-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .training__text-positioning {
   position: relative;
   display: flex;
@@ -77,5 +83,12 @@
   .section-title{
     align-items: flex-start !important;
     
+  }
+}
+
+@media (min-width: 768px) {
+  .training__card-container {
+    flex-direction: row;
+    gap: 30px;
   }
 }
