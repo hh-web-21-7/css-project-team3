@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
 }
 
 .navbar__menu-toggle--open {
@@ -13,6 +12,12 @@
   backdrop-filter: blur(6px);
   top: 0;
   right: 0;
+}
+
+.navbar__menu-toggle {
+  position: absolute;
+  top: 45px;
+  right: 15px;
 }
 
 .navbar__menu-checkbox {
@@ -42,9 +47,10 @@ input[type="checkbox"].navbar__menu-checkbox:checked
   border-bottom-left-radius: 20px;
 }
 
-.navbar__button-container {
-  display: flex;
+.navbar__menu-item {
+  text-align: center;
 }
 
-.navbar__item {
+.navbar__button-container {
+  display: flex;
 }
