@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+<<<<<<< HEAD
   padding: 15px;
   position: relative;
 }
@@ -16,6 +17,17 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+=======
+  padding: 15px 30px;
+}
+
+.navbar__menu-toggle--open {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+>>>>>>> main
   top: 0;
   right: 0;
 }
@@ -26,7 +38,7 @@
 
 .navbar__menu-toggle-container {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
 }
@@ -44,6 +56,13 @@ input[type="checkbox"].navbar__menu-checkbox:checked
   padding: 20px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+<<<<<<< HEAD
+=======
+}
+
+.navbar__button-container {
+  display: flex;
+>>>>>>> main
 }
 
 .navbar__item {
