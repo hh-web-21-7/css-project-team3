@@ -2,4 +2,13 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--c-midnight);
   color: var(--c-white);
+  margin: 25px;
+}
+
+p {
+  color: var(--c-white);
+  opacity: 0.8;
+  margin: 30px 50px;
+  font-size: 1rem; 
+  text-align: center;
 }
