@@ -1,7 +1,7 @@
 .logo {
+  display: inline-block;
   padding: 40px 20px;
   border: 2px solid var(--c-white);
-  transform-origin: left;
   transform: scale(0.6);
 }
 

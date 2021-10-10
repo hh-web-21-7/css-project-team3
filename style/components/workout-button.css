@@ -1,7 +1,12 @@
 .workout-button {
-    color: var(--c-white);
-    background-color: hotpink;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
-  }
+  color: var(--c-white);
+  background-color: var(--c-pink);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.workout-button--dark{
+  background-color: var(--c-black);
+}
