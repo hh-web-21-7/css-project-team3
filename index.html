@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+    <title>Workout</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css" />
-  <link rel="stylesheet" href="style/index.css" />
-  <title>Workout</title>
-</head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">
+        <p class="logo__text">
+          Work<span class="logo__text logo__text--pink">out</span>
+        </p>
+        <p class="logo__text logo__text--small">Believe in yourself</p>
+      </div>
 
-<body>
-  <nav class="navbar">
-    <div class="logo">
-      <p class="logo__text">
-        Work<span class="logo__text logo__text--pink">out</span>
-      </p>
-      <p class="logo__text logo__text--small">Believe in yourself</p>
-    </div>
+      <input class="navbar__menu-checkbox" type="checkbox" id="menu-toggle" />
 
-    <input class="navbar__menu-checkbox" type="checkbox" id="menu-toggle" />
-
-    <label for="menu-toggle">
-      <i class="im im-menu"></i>
-    </label>
-
-    <div class="navbar__menu-toggle-container">
       <label for="menu-toggle">
-        <div class="navbar__menu-toggle--open"></div>
+        <i class="im im-menu"></i>
       </label>
-      <div class="navbar__menu-container">
-        <ul class="navbar__menu">
-          <li><a class="navbar__item" href="">Exercises</a></li>
-          <li><a class="navbar__item" href="">Community</a></li>
-          <li><a class="navbar__item" href="">Pricing</a></li>
-          <li><a class="navbar__item" href="">About Us</a></li>
-        </ul>
-        <div class="navbar__button-container">
-          <button class="navbar__Login">Login</button>
-          <button class="navbar__Sign-in">Sign in</button>
+      <div class="navbar__menu-toggle-container">
+        <label for="menu-toggle">
+          <div class="navbar__menu-toggle--open"></div>
+        </label>
+        <div class="navbar__menu-container">
+          <ul class="navbar__menu">
+            <li><a class="navbar__item" href="">Exercises</a></li>
+            <li><a class="navbar__item" href="">Community</a></li>
+            <li><a class="navbar__item" href="">Pricing</a></li>
+            <li><a class="navbar__item" href="">About Us</a></li>
+          </ul>
+          <div class="navbar__button-container">
+            <button class="navbar__Login">Login</button>
+            <button class="navbar__Sign-in">Sign in</button>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
+   
 
   <main>
     <section class="section-box">
@@ -93,7 +96,84 @@
       </div>
     </section>
   </main>
-  <footer></footer>
-</body>
+    
+    <footer class="footer">
+      <div class="footer__arrange-container">
+        <div class="logo">
+          <p class="logo__text">
+            Work<span class="logo__text logo__text--pink">out</span>
+          </p>
+          <p class="logo__text logo__text--small">Believe in yourself</p>
+        </div>
 
+        <p class="footer__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          quod labore voluptatem esse corporis eaque.
+        </p>
+
+        <ul class="footer__social-list">
+          <li>
+            <a class="footer__social-item" href=""
+              ><i class="im im-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a class="footer__social-item" href=""
+              ><i class="im im-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a class="footer__social-item" href=""
+              ><i class="im im-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a class="footer__social-item" href=""
+              ><i class="im im-whatsapp"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__arrange-container">
+        <h3 id="subscribe-label" class="footer__header">
+          subscribe to our newsletter
+        </h3>
+        <form
+          class="footer__subscribe-form"
+          aria-labelledby="subscribe-label"
+          action=""
+        >
+          <input
+            class="footer__email-input"
+            type="mail"
+            placeholder="Type your Email here"
+          />
+          <button class="workout-button">subscribe</button>
+        </form>
+      </div>
+
+      <div class="footer__arrange-container footer__arrange-container--menu">
+        <ul class="footer__menu">
+          <li class="footer__menu-item footer__menu-item--header">info</li>
+          <li class="footer__menu-item">About</li>
+          <li class="footer__menu-item">Careers</li>
+          <li class="footer__menu-item">Press</li>
+          <li class="footer__menu-item">Product Updates</li>
+        </ul>
+        <ul class="footer__menu">
+          <li class="footer__menu-item footer__menu-item--header">
+            get in touch
+          </li>
+          <li class="footer__menu-item">About Us</li>
+          <li class="footer__menu-item">Support</li>
+          <li class="footer__menu-item">Contact Us</li>
+        </ul>
+      </div>
+    </footer>
+    <div class="legal">
+      <p>Copyright &#169; 2021 Enission Lemos | All right reversed</p>
+      <a href="">Terms & Conditions</a>
+    </div>
+  </body>
 </html>
+
