@@ -26,3 +26,13 @@
   margin-top: -12px;
   letter-spacing: 1.8px;
 }
+
+/* ========
+    Desktop
+   ========*/
+
+@media (min-width: 768px) {
+  .logo {
+    transform: scale(1);
+  }
+}

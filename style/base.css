@@ -4,14 +4,6 @@ body {
   color: var(--c-white);
 }
 
-p {
-  color: var(--c-white);
-  opacity: 0.8;
-  margin: 30px 50px;
-  font-size: 1rem;
-  text-align: center;
-}
-
 a:visited {
   color: var(--c-white);
 }
