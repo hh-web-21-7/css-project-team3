@@ -1,5 +1,29 @@
 .teamsection {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 25% 25% 25% 25%;
+  
+}
+
+.teamsection__grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.teamsection__grid-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamsection__img {
+  
+}
+
+.workout-button {
+  color: var(--c-white);
+  background-color: hotpink;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
 }
