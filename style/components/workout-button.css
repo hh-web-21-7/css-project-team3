@@ -7,3 +7,6 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+.workout-button--dark {
+  background-color: var(--c-black);
+}
