@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.navbar__menu-desktop {
+  display: none;
+}
+
 .navbar__menu-toggle--open {
   position: fixed;
   width: 100vw;
@@ -74,4 +78,20 @@ input[type="checkbox"].navbar__menu-checkbox:checked
 .navbar__sign-in {
   border: solid 1px var(--c-white);
   padding: 2px 8px;
+}
+
+@media (min-width: 768px) {
+  .navbar__menu-desktop {
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+  }
+
+  .navbar__menu-desktop-item:hover {
+    border-bottom: 5px solid var(--c-berry);
+  }
+
+  .navbar__menu-toggle {
+    display: none;
+  }
 }

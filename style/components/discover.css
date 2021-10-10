@@ -15,6 +15,7 @@
 }
 
 .discover__button-container {
+  width: 100%;
   display: flex;
-  gap: 30px;
+  justify-content: space-around;
 }
