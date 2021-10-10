@@ -5,6 +5,7 @@
   border-top: solid 2px var(--c-white);
   border-bottom: solid 2px var(--c-white);
   margin-top: 50px;
+  padding: 30px 0;
   gap: 50px;
 }
 
@@ -51,6 +52,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
   gap: 15px;
 }
 
@@ -59,6 +61,7 @@
   color: var(--c-black);
   padding: 10px;
   border-radius: 5px;
+  width: 100%;
 }
 
 .footer__menu {
@@ -73,6 +76,7 @@
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 0;
 }
 
 .footer__legal {
@@ -84,4 +88,35 @@
   padding: 25px 0;
   font-size: 0.8rem;
   opacity: 0.7;
+}
+
+/* ========
+    Desktop
+   ========*/
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .footer__arrange-container {
+    align-items: flex-start;
+  }
+
+  .footer__text {
+    text-align: left;
+  }
+
+  .footer__arrange-container--subscribe {
+    order: 1;
+  }
+  .footer__subscribe-form {
+    align-items: flex-start;
+  }
+
+  .footer__legal {
+    justify-content: space-between;
+  }
 }
