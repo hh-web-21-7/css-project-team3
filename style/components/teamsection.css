@@ -1,7 +1,8 @@
 .teamsection {
-  display: grid;
-  width: 100%;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .teamsection__grid {
@@ -13,10 +14,20 @@
 }
 
 .teamsection__grid-item {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .teamsection__img {
+  border-radius: 30px;
+  margin-bottom: 5px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
+
+.teamsection__img-text {
+  top: 120px;
+  text-align: center;
+}
+
