@@ -3,14 +3,10 @@
   background-color: var(--c-pink);
   text-decoration: none;
   padding: 10px;
-<<<<<<< HEAD
-  border-radius: 6px;
-}
-.workout-button--dark {
-  background-color: var(--c-black);
-=======
   border-radius: 5px;
   font-weight: bold;
   text-transform: uppercase;
->>>>>>> main
+}
+.workout-button--dark{
+  background-color: var(--c-black);
 }
