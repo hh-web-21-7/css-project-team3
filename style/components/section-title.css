@@ -1,12 +1,7 @@
-.section-title{
+.section-title {
   color: var(--c-white);
   letter-spacing: 2px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-  align-items: center;
   font-weight: bold;
   font-size: 1.6rem;
-  margin-bottom: 30px;
   border-bottom: 5px solid var(--c-berry);
 }

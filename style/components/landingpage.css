@@ -1,3 +1,14 @@
+.landingpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.landingpage__text {
+  text-align: center;
+}
+
 .img_1__frame {
   border-radius: 20px;
   overflow: hidden;

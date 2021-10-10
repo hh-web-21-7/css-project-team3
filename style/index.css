@@ -1,10 +1,11 @@
 @import "reset.css";
-@import "utility.css";
-@import "theme.css";
 @import "base.css";
+@import "theme.css";
+@import "utility.css";
 
 /* COMPONENT IMPORTS */
 
+@import "components/body-container.css";
 @import "components/footer.css";
 @import "components/navbar.css";
 @import "components/logo.css";
