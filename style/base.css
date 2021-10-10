@@ -2,8 +2,6 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--c-midnight);
   color: var(--c-white);
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 p {
