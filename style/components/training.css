@@ -1,3 +1,15 @@
+.training {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.training__card-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .training__text-positioning {
   position: relative;
   display: flex;
@@ -19,4 +31,11 @@
   border-radius: 10px;
   margin-bottom: 20px;
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .training__card-container {
+    flex-direction: row;
+    gap: 30px;
+  }
 }
