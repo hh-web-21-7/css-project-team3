@@ -2,7 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
+}
+
+.navbar__menu-desktop {
+  display: none;
 }
 
 .navbar__menu-toggle--open {
@@ -13,6 +16,12 @@
   backdrop-filter: blur(6px);
   top: 0;
   right: 0;
+}
+
+.navbar__menu-toggle {
+  position: absolute;
+  top: 45px;
+  right: 15px;
 }
 
 .navbar__menu-checkbox {
@@ -34,17 +43,55 @@ input[type="checkbox"].navbar__menu-checkbox:checked
 
 .navbar__menu-container {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 0;
   background-color: var(--c-berry);
-  padding: 20px;
+  padding: 15px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.navbar__menu {
+  padding: 25px;
+  margin-bottom: 50px;
+}
+
+.navbar__menu-item {
+  text-align: center;
+  padding: 8px 0;
 }
 
 .navbar__button-container {
   display: flex;
+  justify-content: center;
+  align-items: space-between;
+  font-size: 0.9rem;
 }
 
-.navbar__item {
+.navbar__login {
+  background-color: var(--c-pink);
+  padding: 2px 8px;
+}
+.navbar__sign-in {
+  border: solid 1px var(--c-white);
+  padding: 2px 8px;
+}
+
+@media (min-width: 768px) {
+  .navbar__menu-desktop {
+    display: flex;
+    gap: 50px;
+    text-transform: uppercase;
+  }
+
+  .navbar__menu-desktop-item:hover {
+    border-bottom: 5px solid var(--c-berry);
+  }
+
+  .navbar__menu-toggle {
+    display: none;
+  }
 }

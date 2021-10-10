@@ -8,6 +8,7 @@
 .training__card-container {
   display: flex;
   flex-direction: column;
+  gap: 15px;
 }
 
 .training__card {
@@ -19,12 +20,11 @@
 }
 
 .training__img-subtitle {
-  display: flex;
   position: absolute;
   color: var(--c-white);
   font-size: 1.5rem;
   left: 7px;
-  bottom: 30px;
+  bottom: 4px;
 }
 
 .training__training-img {
@@ -45,22 +45,21 @@
   .training {
     align-items: flex-start;
   }
-  
+
   .training__card-container {
     flex-direction: row;
     gap: 30px;
   }
-  .training__card{
+  .training__card {
     gap: 15px;
     align-items: flex-start;
   }
-  .training__text{
+  .training__text {
     display: block;
     font-size: 0.9rem;
   }
-  
+
   .training__img-subtitle {
     display: none;
   }
-  
 }
