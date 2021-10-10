@@ -3,3 +3,7 @@ body {
   background-color: var(--c-midnight);
   color: var(--c-white);
 }
+
+a:visited {
+  color: var(--c-white);
+}
