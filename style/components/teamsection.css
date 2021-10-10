@@ -1,6 +1,7 @@
 .teamsection {
   display: grid;
   width: 100%;
+  overflow: hidden;
 }
 
 .teamsection__grid {
