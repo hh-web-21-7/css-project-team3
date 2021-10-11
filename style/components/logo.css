@@ -1,11 +1,16 @@
 .logo {
+  display: inline-block;
   padding: 40px 20px;
   border: 2px solid var(--c-white);
-  transform-origin: top-left;
-  transform: scale(0.7);
+  transform: scale(0.6);
+}
+
+.logo--navbar {
+  transform-origin: top left;
 }
 
 .logo__text {
+  margin: 0;
   text-transform: uppercase;
   color: var(--c-white);
   font-size: 32px;
@@ -24,4 +29,14 @@
   font-weight: normal;
   margin-top: -12px;
   letter-spacing: 1.8px;
+}
+
+/* ========
+    Desktop
+   ========*/
+
+@media (min-width: 768px) {
+  .logo {
+    transform: scale(1);
+  }
 }

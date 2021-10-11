@@ -1,16 +1,28 @@
-.landingpage-mobile {
+.landingpage {
+  margin-top: -60px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  gap: 30px;
 }
 
-.img_1__frame {
-  margin-top: 100px;
-  overflow: hidden;
-  border-radius: 20px;
-  overflow:hidden;
+.landingpage__text {
+  text-align: center;
+  opacity: 0.7;
+}
 
+.landingpage__img-container {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  position: relative;
+}
+
+.landingpage__img {
+  position: absolute;
+  width: 170%;
+  margin-left: -40%;
 }
 
 .landingpage__title {
@@ -19,26 +31,17 @@
   display: flex;
   flex-direction: column;
   margin-top: 40px;
+  align-items: center;
 }
 
 .landingpage__title--big {
   font-size: 2rem;
   font-weight: 600;
   letter-spacing: 5px;
-  margin-bottom: -15px;
 }
 
-.landingpage__text {
-  color: var(--c-white);
-  margin: 30px 0 50px 0;
-  font-size: 12px;
-  max-width: 305px;
-  
-}
-.workout-button {
-  color: var(--c-white);
-  background-color: hotpink;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 10px;
+@media (min-width: 768px) {
+  .landingpage {
+    margin-top: 0;
+  }
 }

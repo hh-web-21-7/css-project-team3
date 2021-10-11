@@ -1,0 +1,7 @@
+.section-title {
+  color: var(--c-white);
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 1.6rem;
+  border-bottom: 5px solid var(--c-berry);
+}
