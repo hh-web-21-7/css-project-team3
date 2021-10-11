@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <div class="body-container">
+    <div class="content-container">
       <nav class="navbar">
         <div class="logo logo--navbar">
           <p class="logo__text">
@@ -29,13 +29,17 @@
           <li><a class="navbar__menu-desktop-item" href="">about us</a></li>
           <li>
             <div class="navbar__button-container">
-              <button class="navbar__login">Login</button>
-              <button class="navbar__sign-in">Sign in</button>
+              <button class="navbar__button-login">Login</button>
+              <button class="navbar__button-sign-in">Sign in</button>
             </div>
           </li>
         </ul>
 
-        <input class="navbar__menu-checkbox" type="checkbox" id="menu-toggle" />
+        <input
+          class="navbar__checkbox hidden"
+          type="checkbox"
+          id="menu-toggle"
+        />
 
         <label class="navbar__menu-toggle" for="menu-toggle">
           <i class="im im-menu"></i>
@@ -43,35 +47,39 @@
 
         <div class="navbar__menu-toggle-container">
           <label for="menu-toggle">
-            <div class="navbar__menu-toggle--open"></div>
+            <div class="navbar__menu-background-blur"></div>
           </label>
-          <div class="navbar__menu-container">
-            <ul class="navbar__menu">
-              <li><a class="navbar__menu-item" href="">Exercises</a></li>
-              <li><a class="navbar__menu-item" href="">Community</a></li>
-              <li><a class="navbar__menu-item" href="">Pricing</a></li>
-              <li><a class="navbar__menu-item" href="">About Us</a></li>
-            </ul>
-            <div class="navbar__button-container">
-              <button class="navbar__login">Login</button>
-              <button class="navbar__sign-in">Sign in</button>
-            </div>
-          </div>
+          <ul class="navbar__menu">
+            <li><a class="navbar__menu-item" href="">Exercises</a></li>
+            <li><a class="navbar__menu-item" href="">Community</a></li>
+            <li><a class="navbar__menu-item" href="">Pricing</a></li>
+            <li><a class="navbar__menu-item" href="">About Us</a></li>
+            <li>
+              <div
+                class="navbar__menu-item navbar__menu-item--button-container"
+              >
+                <button class="navbar__button-login">Login</button>
+                <button class="navbar__button-sign-in">Sign in</button>
+              </div>
+            </li>
+          </ul>
         </div>
       </nav>
 
       <main>
         <section class="landingpage">
-          <div class="img_1__frame">
+          <div class="landingpage__img-container">
             <img
-              class="img_1"
+              class="landingpage__img"
               src="images/woman_desktop.png"
               alt="Woman rubbing her hands with chalk before workout"
-            /><br />
+            />
           </div>
           <div class="landingpage__title">
-            <span class="landingpage__title--big">4 WEEK</span>
-            <h1>WORKOUT PLAN</h1>
+            <h1>
+              <span class="block landingpage__title--big">4 WEEK</span>
+              <span class="block -mt-30"> WORKOUT PLAN</span>
+            </h1>
           </div>
           <p class="landingpage__text">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
@@ -79,16 +87,16 @@
             quod totam natus fugiat voluptates minus eos ab. Sapiente ab
             architecto iusto expedita inventore incidunt!
           </p>
-          <a class="workout-button" href="#">TRY FOR FREE</a>
+          <a class="workout-button" href="#">try for free</a>
         </section>
 
         <section class="training">
           <h2 class="section-title">LATEST TRAINING</h2>
           <div class="training__card-container">
-            <div class="training__card">
-              <img class="training__training-img" src="images/running.png" />
-              <h3 class="training__img-subtitle">RUNNING</h3>
-              <p class="training__text">
+            <div class="card-bg-transparent">
+              <img class="card-bg-transparent__img" src="images/running.png" />
+              <h3 class="card-bg-transparent__img-subtitle">RUNNING</h3>
+              <p class="card-bg-transparent__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 officiis quasi ab!
               </p>
@@ -98,13 +106,13 @@
                 >TRY FOR FREE</a
               >
             </div>
-            <div class="training__card">
+            <div class="card-bg-transparent">
               <img
-                class="training__training-img"
+                class="card-bg-transparent__img"
                 src="images/lifting_desktop.png"
               />
-              <h3 class="training__img-subtitle">LIFTING</h3>
-              <p class="training__text">
+              <h3 class="card-bg-transparent__img-subtitle">LIFTING</h3>
+              <p class="card-bg-transparent__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 officiis quasi ab!
               </p>
@@ -114,10 +122,10 @@
                 >TRY FOR FREE</a
               >
             </div>
-            <div class="training__card">
-              <img class="training__training-img" src="images/yoga.png" />
-              <h3 class="training__img-subtitle">YOGA</h3>
-              <p class="training__text">
+            <div class="card-bg-transparent">
+              <img class="card-bg-transparent__img" src="images/yoga.png" />
+              <h3 class="card-bg-transparent__img-subtitle">YOGA</h3>
+              <p class="card-bg-transparent__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In
                 officiis quasi ab!
               </p>
@@ -133,24 +141,24 @@
           >
         </section>
 
-        <section class="teamsection">
+        <section class="trainers">
           <h2 class="section-title">OUR TEAM</h2>
-          <ul class="teamsection__grid">
-            <li class="teamsection__grid-item">
-              <img class="teamsection__img" src="images/team1.jpg" alt="" />
-              <h3 class="teamsection__img-text">JAMIES FORD</h3>
+          <ul class="trainers__grid">
+            <li class="card-bg-white">
+              <img class="card-bg-white__img" src="images/team1.jpg" alt="" />
+              <h3 class="card-bg-white__img-subtitle">JAMIES FORD</h3>
             </li>
-            <li class="teamsection__grid-item">
-              <img class="teamsection__img" src="images/team2.jpg" alt="" />
-              <h3 class="teamsection__img-text">EDDIE SMITH</h3>
+            <li class="card-bg-white">
+              <img class="card-bg-white__img" src="images/team2.jpg" alt="" />
+              <h3 class="card-bg-white__img-subtitle">EDDIE SMITH</h3>
             </li>
-            <li class="teamsection__grid-item">
-              <img class="teamsection__img" src="images/team3.jpg" alt="" />
-              <h3 class="teamsection__img-text">ANNIE SUMMER</h3>
+            <li class="card-bg-white">
+              <img class="card-bg-white__img" src="images/team3.jpg" alt="" />
+              <h3 class="card-bg-white__img-subtitle">ANNIE SUMMER</h3>
             </li>
-            <li class="teamsection__grid-item">
-              <img class="teamsection__img" src="images/team4.jpg" alt="" />
-              <h3 class="teamsection__img-text">EMILY SEA</h3>
+            <li class="card-bg-white">
+              <img class="card-bg-white__img" src="images/team4.jpg" alt="" />
+              <h3 class="card-bg-white__img-subtitle">EMILY SEA</h3>
             </li>
           </ul>
           <a class="workout-button" href="#">SEE MORE</a>
@@ -186,42 +194,50 @@
             derit quod labore.
           </p>
 
-          <ul class="footer__social-list">
+          <ul class="social-network">
             <li>
-              <a class="footer__social-item" href=""
-                ><i class="im im-facebook"></i
-              ></a>
+              <a class="social-network__item" href=""
+                ><i class="im im-facebook"
+                  ><span class="sr-only">facebook page</span></i
+                ></a
+              >
             </li>
             <li>
-              <a class="footer__social-item" href=""
-                ><i class="im im-instagram"></i
-              ></a>
+              <a class="social-network__item" href=""
+                ><i class="im im-instagram"
+                  ><span class="sr-only">instagram profile</span></i
+                ></a
+              >
             </li>
             <li>
-              <a class="footer__social-item" href=""
-                ><i class="im im-twitter"></i
-              ></a>
+              <a class="social-network__item" href=""
+                ><i class="im im-twitter"
+                  ><span class="sr-only">twitter page</span></i
+                ></a
+              >
             </li>
             <li>
-              <a class="footer__social-item" href=""
-                ><i class="im im-whatsapp"></i
-              ></a>
+              <a class="social-network__item" href=""
+                ><i class="im im-whatsapp"
+                  ><span class="sr-only">what</span></i
+                ></a
+              >
             </li>
           </ul>
         </div>
         <div
           class="footer__arrange-container footer__arrange-container--subscribe"
         >
-          <h3 id="subscribe-label" class="footer__header">
+          <h3 id="subscribe-label" class="subscribe-section__header">
             subscribe to our newsletter
           </h3>
           <form
-            class="footer__subscribe-form"
+            class="subscribe-section__form"
             aria-labelledby="subscribe-label"
             action=""
           >
             <input
-              class="footer__email-input"
+              class="subscribe-section__email-input"
               type="mail"
               placeholder="Type your Email here"
             />

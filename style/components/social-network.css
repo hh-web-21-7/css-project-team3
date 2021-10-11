@@ -1,0 +1,15 @@
+.social-network {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-network__item {
+  background-color: var(--c-berry);
+  border-radius: 999px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
