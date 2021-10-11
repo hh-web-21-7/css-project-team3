@@ -1,21 +1,21 @@
-@import "reset.css";
-@import "base.css";
-@import "theme.css";
-@import "utility.css";
+@import 'reset.css';
+@import 'base.css';
+@import 'theme.css';
+@import 'utility.css';
 
 /* COMPONENT IMPORTS */
 
-@import "components/content-container.css";
-@import "components/footer.css";
-@import "components/navbar.css";
-@import "components/logo.css";
-@import "components/landingpage.css";
-@import "components/section-title.css";
-@import "components/workout-button.css";
-@import "components/training.css";
-@import "components/trainers.css";
-@import "components/discover.css";
-@import "components/card-bg-transparent.css";
-@import "components/card-bg-white.css";
-@import "components/social-network.css";
-@import "components/subscribe-section.css";
+@import 'components/content-container.css';
+@import 'components/footer.css';
+@import 'components/navbar.css';
+@import 'components/logo.css';
+@import 'components/landingpage.css';
+@import 'components/section-title.css';
+@import 'components/workout-button.css';
+@import 'components/training.css';
+@import 'components/trainers.css';
+@import 'components/discover.css';
+@import 'components/card-bg-transparent.css';
+@import 'components/card-bg-white.css';
+@import 'components/social-network.css';
+@import 'components/subscribe-section.css';

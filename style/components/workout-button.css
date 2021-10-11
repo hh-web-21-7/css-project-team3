@@ -20,6 +20,7 @@
   .workout-button--hidden-on-desktop {
     display: none;
   }
+
   .workout-button--hidden-on-mobile {
     display: block;
   }
