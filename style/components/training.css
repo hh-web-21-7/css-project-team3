@@ -20,10 +20,12 @@
     flex-direction: row;
     gap: 30px;
   }
+
   .card-bg-transparent {
     gap: 15px;
     align-items: flex-start;
   }
+
   .card-bg-transparent__text {
     display: block;
     font-size: 0.9rem;
