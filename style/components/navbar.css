@@ -41,9 +41,6 @@ input[type="checkbox"].navbar__checkbox:checked
   display: block;
 }
 
-.navbar__menu-container {
-}
-
 .navbar__menu {
   position: absolute;
   top: 10px;
@@ -64,11 +61,10 @@ input[type="checkbox"].navbar__checkbox:checked
 
 .navbar__menu-item--button-container {
   padding: 0;
-  margin-top: 50px;
   display: flex;
-  width: 140px;
   justify-content: center;
   align-items: space-between;
+  min-width: 140px;
   font-size: 0.9rem;
 }
 

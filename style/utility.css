@@ -6,6 +6,10 @@
   margin-top: -15px;
 }
 
+.mb-50 {
+  margin-bottom: 50px;
+}
+
 .block {
   display: block;
 }
