@@ -1,0 +1,27 @@
+.workout-button {
+  color: var(--c-white);
+  background-color: var(--c-pink);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.workout-button--dark {
+  background-color: var(--c-black);
+}
+
+.workout-button--hidden-on-mobile {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .workout-button--hidden-on-desktop {
+    display: none;
+  }
+
+  .workout-button--hidden-on-mobile {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+<ul class="social-network">
+            <li>
+              <a class="social-network__item" href=""
+                ><i class="im im-facebook"><span class="sr-only">facebook page</span></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-network__item" href=""
+                ><i class="im im-instagram"><span class="sr-only">instagram profile</span></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-network__item" href=""
+                ><i class="im im-twitter"><span class="sr-only">twitter page</span></i
+              ></a>
+            </li>
+            <li>
+              <a class="social-network__item" href=""
+                ><i class="im im-whatsapp"><span class="sr-only">what</span></i
+              ></a>
+            </li>
+          </ul>

@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+a,
+a:visited,
+a:focus,
+input,
+button {
+  all: unset;
+  display: block;
+}
+
+:root {
+  font-size: 112.5%;
+}

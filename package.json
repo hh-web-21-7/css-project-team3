@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "css-project-team3",
+  "version": "1.0.0",
+  "description": "Design 2 https://www.figma.com/community/file/1025112897172222956",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "html:check": "npx htmlhint **/*.html",
+    "css:check": "npx stylelint **/*.css",
+    "css:fix": "npx stylelint **/*.css --fix",
+    "prettier:check": "npx prettier --check .",
+    "prettier:fix": "npx prettier --write .",
+    "test": "npm run prettier:check && npm run html:check && npm run css:check",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown",
+    "**/*.css": "npm run css:fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hh-web-21-7/css-project-team3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hh-web-21-7/css-project-team3/issues"
+  },
+  "homepage": "https://github.com/hh-web-21-7/css-project-team3#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.2",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.3",
+    "prettier": "2.4.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
